@@ -6,14 +6,15 @@
 
 3. Paste this in your terminal:
 <pre><code>/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"</code></pre><br>
-Note: If you want to learn more about homebrew and what exactly it does (other than make your life incredibly easy, check it out [here](https://docs.brew.sh/Homebrew-and-Python)
+Note: If you want to learn more about homebrew and what exactly it does (other than make your life incredibly easy, check it out [here](https://docs.brew.sh/Homebrew-and-Python)<br>
 4. Install python:
 <pre><code>$ brew install python</code></pre><br>
 5. Run:
-	<pre><code>$ pip3 install -r requirements.txt</code></pre>
+	<pre><code>$ pip3 install virtualenv</code></pre>
 	<pre><code>$ virtualenv state_prison_corona</code></pre>
 	<pre><code>$ source state_prison_corona/bin/activate</code></pre>
-	<pre><code>$ pip3 install requests</code></pre> <br>
+	<pre><code>$ pip3 install -r requirements.txt</code></pre>
+
 
 Note: Once you're done working in your virtual environment, you can just simply run 
 <pre><code>deactivate</code></pre>

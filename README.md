@@ -18,5 +18,5 @@
 	<pre><code>$ pip3 install -r requirements.txt</code></pre>
 
 
-Note: Once you're done working in your virtual environment, you can just simply run 
+*Note: Once you're done working in your virtual environment, you can just simply run*
 <pre><code>deactivate</code></pre>
